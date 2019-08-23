@@ -1,7 +1,7 @@
 import React from 'react' 
 import ReactDOM from 'react-dom' 
-import  ClassComponent from './classComponent'
+import  Calculadora from './Calculadora'
 
 ReactDOM.render(    
-        <ClassComponent label="Idade" idade={21} />
+        <Calculadora label="Calculadora" num1={1} num2={1} />
         , document.getElementById('app'))
